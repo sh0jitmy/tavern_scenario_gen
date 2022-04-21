@@ -1,0 +1,13 @@
+---
+stages:
+- name: api_test
+  request:
+    headers:
+      content-type: application/json
+    json: test_4.json
+    method: POST
+    url: /test/api
+  response:
+    status_code: 200
+    strict: false
+test_name: apitest1

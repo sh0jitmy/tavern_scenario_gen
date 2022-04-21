@@ -1,0 +1,14 @@
+{
+  "testname":"apitest1",
+  "testurl":"/test/api",
+  "testmethod":"POST",
+  "testresponse":200,
+  "testdata": {
+    "id"   :"test_uuid",
+    "addr" :"test_ipaddr",
+    "level":"test_float[-100,-10]",
+    "code" :"test_enum[\"A1\",\"A2\"]", 
+    "data" :"test_binary:4"
+  },
+  "yamltitle":"apitest1"
+}
